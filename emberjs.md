@@ -8,7 +8,7 @@ Used for:
 5. Date range selectors
 6. Wrap libraries and services
 
-Components follow very closely with W3C Custom Elements spec.
+Components follow very closely with W3C Custom Elements specification.  This is something to be suoer-excited about given
 ##### Generating a Component Using `Ember CLI`:
   ```javascript
     $ ember generate component <component-name>
@@ -24,7 +24,7 @@ Components follow very closely with W3C Custom Elements spec.
         })
       });
   ```
-  ##### Customizing the Component's Template:
+  #####Customizing the Component's Template:
 
   Defined in `app/templates/components/template-name.hbs`
   ```javascript
