@@ -20,7 +20,7 @@ They follow very closely with W3C Custom Elements specification.  This is someth
   ```javascript
     export default Ember.Component.extend({
       percentage: Ember.computed('itemPrice', 'orderPrice', function() {
-        return this.get('itemPrice') / this.get('orderPrice') ** 100'
+        return this.get('itemPrice') / this.get('orderPrice') * 100;
     })
   });
   ```
